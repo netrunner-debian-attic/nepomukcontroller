@@ -1,0 +1,22 @@
+Source: nepomukcontroller
+Section: main
+Priority: extra
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), cmake
+Standards-Version: 3.9.1
+Homepage: http://kde-apps.org/content/show.php/Nepomukcontroller?content=137088
+#Vcs-Git: git://git.debian.org/collab-maint/nepomukcontroller.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/nepomukcontroller.git;a=summary
+
+Package: nepomukcontroller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: systray applet that allows to suspend and resume Nepomuk
+ Nepomukcontroller is a small systray applet that allows you to suspend and 
+ resume the Nepomuk file indexer.
+ .
+ The systray was removed from KDE 4.6 to be ported to a stand-alone app 
+ which was not finished before the feature freeze. Thus, this applet will be 
+ merged back into kdebase for KDE 4.7. In the meantime you can use it from 
+ here.
+
