@@ -1,7 +1,7 @@
 Source: nepomukcontroller
 Section: main
 Priority: extra
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), cmake, kdelibs5-dev (>= 4.5.80)
 Standards-Version: 3.9.1
 Homepage: http://kde-apps.org/content/show.php/Nepomukcontroller?content=137088
