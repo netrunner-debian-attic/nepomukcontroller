@@ -5,8 +5,8 @@ Maintainer: Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), cmake, kdelibs5-dev (>= 4.5.80)
 Standards-Version: 3.9.1
 Homepage: http://kde-apps.org/content/show.php/Nepomukcontroller?content=137088
-#Vcs-Git: git://git.debian.org/collab-maint/nepomukcontroller.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/nepomukcontroller.git;a=summary
+Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/nepomukcontroller.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/nepomukcontroller.git
 
 Package: nepomukcontroller
 Architecture: any
