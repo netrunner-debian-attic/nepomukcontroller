@@ -2,4 +2,5 @@ nepomukcontroller (0.2-1) unstable; urgency=low
 
   * Initial release (Closes: #611309)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jan 2011 19:16:35 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Fri, 28 Jan 2011 12:24:37 -0300
+
