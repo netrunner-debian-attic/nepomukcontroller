@@ -1,0 +1,18 @@
+Description: Make CMake look those files in the correct place.
+Author: Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
+
+Index: git/CMakeLists.txt
+===================================================================
+--- git.orig/CMakeLists.txt	2011-02-12 16:09:00.000000000 +0000
++++ git/CMakeLists.txt	2011-02-12 16:09:20.000000000 +0000
+@@ -22,8 +22,8 @@
+   systray.cpp
+   )
+ 
+-qt4_add_dbus_interface(controller_SRCS ${KDE4_DBUS_INTERFACES_DIR}/org.kde.nepomuk.Strigi.xml strigiserviceinterface)
+-qt4_add_dbus_interface(controller_SRCS ${KDE4_DBUS_INTERFACES_DIR}/org.kde.nepomuk.ServiceControl.xml servicecontrol)
++qt4_add_dbus_interface(controller_SRCS org.kde.nepomuk.Strigi.xml strigiserviceinterface)
++qt4_add_dbus_interface(controller_SRCS org.kde.nepomuk.ServiceControl.xml servicecontrol)
+ 
+ kde4_add_executable(nepomukcontroller ${controller_SRCS})
+ 
