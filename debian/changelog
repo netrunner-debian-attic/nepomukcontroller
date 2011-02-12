@@ -1,6 +1,8 @@
 nepomukcontroller (0.2-1) unstable; urgency=low
 
   * Initial release (Closes: #611309)
+  * In debian/rules move .desktop file to autostart directory, as
+    recommended by upstream. Thanks Jonathan Riddell for the patch.
 
  -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Fri, 28 Jan 2011 12:24:37 -0300
 
