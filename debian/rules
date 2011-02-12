@@ -6,3 +6,10 @@
 
 %:
 	dh $@ --with=kde
+
+override_dh_install:
+	dh_install
+	mkdir -p debian/nepomukcontroller/usr/share/autostart/
+	mv debian/nepomukcontroller/usr/share/applications/kde4/nepomukcontroller.desktop debian/nepomukcontroller/usr/share/autostart/nepomukcontroller.desktop
+	rm -r debian/nepomukcontroller/usr/share/applications/
+
